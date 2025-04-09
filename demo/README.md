@@ -1,5 +1,5 @@
 - intialize spring intializer 
-- add required dependencies (WEB, JPA, REDIS)
+- add required dependencies (WEB, Mysql Driver, JPA, REDIS)
 - WRITE CRUD Operation
 - Install WSL for Windows to use Redis
 - Run redis server on Ubuntu cli on windows
