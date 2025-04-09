@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "ee6a8b09-15d0-4587-b2c8-74528ae093c0",
+		"name": "Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43908861",
+		"_collection_link": "https://pragya-841618.postman.co/workspace/Pragya's-Workspace~3569b1ad-4417-46e9-8583-ac2f7e5f596f/collection/43908861-ee6a8b09-15d0-4587-b2c8-74528ae093c0?action=share&source=collection_link&creator=43908861"
+	},
+	"item": [
+		{
+			"name": "noteget",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/notes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"notes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postnote",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"title\":\"This is note5\",\r\n\"content\":\"note 5 content\",\r\n\"live\":true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/api/v1/notes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"notes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "notegetbyId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/notes/652b6bc1-a59a-4d55-84eb-4e722091211b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"notes",
+						"652b6bc1-a59a-4d55-84eb-4e722091211b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletenotebyId",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/api/v1/notes/652b6bc1-a59a-4d55-84eb-4e722091211b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"v1",
+						"notes",
+						"652b6bc1-a59a-4d55-84eb-4e722091211b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
