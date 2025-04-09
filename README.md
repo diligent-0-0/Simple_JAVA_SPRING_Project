@@ -1,0 +1,8 @@
+- intialize spring intializer 
+- add required dependencies (WEB, Mysql Driver, JPA, REDIS)
+- WRITE CRUD Operation
+- Install WSL for Windows to use Redis
+- Run redis server on Ubuntu cli on windows
+- run APIs from Postman
+- you can check on redis server as for the key with
+- ![img.png](img.png)
